@@ -1,0 +1,11 @@
+Niveaukop,Uur,datum,minuut,ernong,N_Slacht_dood,N_Slacht_Zh,Aardong,loctypon,X,Y,N_Personenauto,N_Brom_snorfiets,N_Fiets,N_Voetganger
+Ongeval gekoppeld op gemeente niveau,1.00-01.59,03JAN06,10,Letsel,0,0,Vast voorwerp,Kruispunt,111998,516711,1,0,0,0
+Ongeval exact gekoppeld aan BN,7.00-07.59,07JAN06,50,Letsel,0,1,Frontaal,Kruispunt,95069,451430,1,0,0,0
+Ongeval exact gekoppeld aan BN,11.00-11.59,21JAN06,10,Letsel,0,0,Flank,Wegvak,119330.273,486468.495,1,0,0,0
+Ongeval exact gekoppeld aan BN,12.00-12.59,13JAN06,45,Letsel,0,0,Kop/staart,Kruispunt,91939,440711,2,0,0,0
+Ongeval exact gekoppeld aan BN,18.00-18.59,09JAN06,9,Letsel,0,0,Vast voorwerp,Wegvak,190371.475,324748.091,0,0,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,03JAN06,15,Letsel,0,0,Flank,Kruispunt,258048,468749,1,0,1,0
+Ongeval exact gekoppeld aan BN,17.00-17.59,12JAN06,57,Letsel,0,0,Kop/staart,Kruispunt,174487,318218,2,0,0,0
+Ongeval exact gekoppeld aan BN,17.00-17.59,24JAN06,0,Letsel,0,0,Flank,Kruispunt,177750,319033,1,1,0,0
+Ongeval gekoppeld op straat niveau,22.00-22.59,13JAN06,49,Letsel,0,0,Voetganger,Wegvak,158178.588,380926.549,1,0,0,1
+Ongeval gekoppeld op kruispuntniveau,9.00-09.59,30JAN06,57,Letsel,0,0,Flank,Kruispunt,53498,407783,1,1,0,0
