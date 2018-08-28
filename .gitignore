@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+.DS_Store
+.DS_Store?
+
+# Ignore Pycharm Versioning
+.ipynb_checkpoints
+.ipynb_checkpoints/*
+
+# Ignore Pycharm settings files
+.idea
+.idea/*
+
+# Ignore Provenance Generated file
+/prov-files/*
