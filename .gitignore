@@ -14,3 +14,6 @@ __pycache__/
 
 # Ignore Provenance Generated file
 /prov-files/*
+
+# Ignore Output folder
+.output/*
