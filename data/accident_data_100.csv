@@ -1,0 +1,101 @@
+Niveaukop,Uur,datum,minuut,ernong,N_Slacht_dood,N_Slacht_Zh,Aardong,loctypon,X,Y,N_Personenauto,N_Brom_snorfiets,N_Fiets,N_Voetganger
+Ongeval gekoppeld op gemeente niveau,1.00-01.59,03JAN06,10,Letsel,0,0,Vast voorwerp,Kruispunt,111998,516711,1,0,0,0
+Ongeval exact gekoppeld aan BN,7.00-07.59,07JAN06,50,Letsel,0,1,Frontaal,Kruispunt,95069,451430,1,0,0,0
+Ongeval exact gekoppeld aan BN,11.00-11.59,21JAN06,10,Letsel,0,0,Flank,Wegvak,119330.273,486468.495,1,0,0,0
+Ongeval exact gekoppeld aan BN,12.00-12.59,13JAN06,45,Letsel,0,0,Kop/staart,Kruispunt,91939,440711,2,0,0,0
+Ongeval exact gekoppeld aan BN,18.00-18.59,09JAN06,9,Letsel,0,0,Vast voorwerp,Wegvak,190371.475,324748.091,0,0,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,03JAN06,15,Letsel,0,0,Flank,Kruispunt,258048,468749,1,0,1,0
+Ongeval exact gekoppeld aan BN,17.00-17.59,12JAN06,57,Letsel,0,0,Kop/staart,Kruispunt,174487,318218,2,0,0,0
+Ongeval exact gekoppeld aan BN,17.00-17.59,24JAN06,0,Letsel,0,0,Flank,Kruispunt,177750,319033,1,1,0,0
+Ongeval gekoppeld op straat niveau,22.00-22.59,13JAN06,49,Letsel,0,0,Voetganger,Wegvak,158178.588,380926.549,1,0,0,1
+Ongeval gekoppeld op kruispuntniveau,9.00-09.59,30JAN06,57,Letsel,0,0,Flank,Kruispunt,53498,407783,1,1,0,0
+Ongeval gekoppeld op straat niveau,8.00-08.59,22APR06,30,Letsel,0,0,Flank,Wegvak,97954.555,439252.238,2,0,0,0
+Ongeval gekoppeld op straat niveau,12.00-12.59,25APR06,4,Letsel,0,0,Onbekend,Wegvak,128643.484,429965.817,0,0,2,0
+Ongeval gekoppeld op straat niveau,7.00-07.59,08JAN06,30,Letsel,0,0,Eenzijdig,Wegvak,185095.726,339927.337,1,0,0,0
+Ongeval exact gekoppeld aan BN,19.00-19.59,19JAN06,2,Letsel,0,1,Eenzijdig,Wegvak,182792,420474.981,1,0,0,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,02JAN06,30,Letsel,0,0,Flank,Kruispunt,182337,579623,1,0,1,0
+Ongeval gekoppeld op straat niveau,14.00-14.59,28JAN06,0,Letsel,0,0,Voetganger,Wegvak,99519.086,437944.594,1,0,0,1
+Ongeval exact gekoppeld aan BN,3.00-03.59,23JAN06,50,Letsel,0,0,Vast voorwerp,Wegvak,81219,453767.5,0,1,0,0
+Ongeval exact gekoppeld aan BN,9.00-09.59,27JAN06,33,Letsel,0,0,Flank,Kruispunt,195829,472688,1,0,0,0
+Ongeval exact gekoppeld aan BN,2.00-02.59,28JAN06,32,Letsel,0,1,Flank,Kruispunt,118910,483587,3,0,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,13JAN06,50,Letsel,0,0,Flank,Kruispunt,186707,330927,1,1,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,30JAN06,5,Letsel,0,0,Frontaal,Kruispunt,198895,356303,1,0,1,0
+Ongeval exact gekoppeld aan BN,19.00-19.59,07FEB06,15,Letsel,0,0,Kop/staart,Kruispunt,92313,450946,1,0,1,0
+Ongeval exact gekoppeld aan BN,15.00-15.59,26JAN06,47,Letsel,0,1,Flank,Kruispunt,68544,428251,1,0,1,0
+Ongeval exact gekoppeld aan BN,16.00-16.59,30JAN06,55,Letsel,0,0,Vast voorwerp,Wegvak,66206.767,432142.078,1,0,0,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,02FEB06,45,Letsel,0,0,Flank,Kruispunt,70834,435969,1,0,1,0
+Ongeval exact gekoppeld aan BN,9.00-09.59,02FEB06,3,Letsel,0,0,Kop/staart,Wegvak,196132.467,371829.198,1,0,0,0
+Ongeval gekoppeld op straat niveau,11.00-11.59,06FEB06,53,Letsel,0,0,Flank,Wegvak,197081.479,497498.154,0,0,1,0
+Ongeval exact gekoppeld aan BN,11.00-11.59,17FEB06,25,Letsel,0,1,Flank,Kruispunt,116137.43,472763.713,0,0,1,0
+Ongeval exact gekoppeld aan BN,17.00-17.59,13FEB06,20,Letsel,0,0,Flank,Kruispunt,122848.988,486057.624,1,0,0,0
+Ongeval gekoppeld op straat niveau,18.00-18.59,07JAN06,16,Letsel,0,0,Geparkeerd,Wegvak,106432,500827,3,0,0,0
+Ongeval exact gekoppeld aan BN,16.00-16.59,03JAN06,41,Letsel,0,1,Eenzijdig,Wegvak,102445.5,497152,0,1,0,0
+Ongeval exact gekoppeld aan BN,17.00-17.59,20JAN06,54,Letsel,0,0,Frontaal,Wegvak,177475.445,318993.111,0,2,0,0
+Ongeval gekoppeld op straat niveau,21.00-21.59,25JAN06,0,Letsel,0,0,Vast voorwerp,Wegvak,77895.5,435254.5,1,0,0,0
+Ongeval gekoppeld op kruispuntniveau,23.00-23.59,21JAN06,15,Letsel,0,0,Frontaal,Kruispunt,78804,454880,1,1,0,0
+Ongeval exact gekoppeld aan BN,17.00-17.59,17JAN06,45,Letsel,0,0,Vast voorwerp,Wegvak,155534.136,467209.456,1,0,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,06FEB06,4,Letsel,0,0,Flank,Kruispunt,105949,422474,1,0,0,0
+Ongeval gekoppeld op straat niveau,15.00-15.59,01FEB06,8,Letsel,0,0,Flank,Wegvak,208687.058,375985.653,0,1,1,0
+Ongeval exact gekoppeld aan BN,9.00-09.59,30JAN06,5,Letsel,0,0,Flank,Kruispunt,136723,455833,1,0,1,1
+Ongeval exact gekoppeld aan BN,21.00-21.59,02FEB06,50,Letsel,0,0,Flank,Kruispunt,216249,556182,0,1,0,0
+Ongeval exact gekoppeld aan BN,15.00-15.59,31JAN06,19,Letsel,0,0,Flank,Kruispunt,81610,449905,1,2,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,15FEB06,0,Letsel,0,0,Flank,Kruispunt,94803,441701,1,0,1,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,08FEB06,15,Letsel,0,0,Frontaal,Kruispunt,102597,497313,1,0,1,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,26JAN06,30,Letsel,0,0,Voetganger,Wegvak,181157.575,579034.016,0,0,0,1
+Ongeval gekoppeld op straat niveau,19.00-19.59,13FEB06,20,Letsel,0,0,Vast voorwerp,Wegvak,130054.723,549661.49,1,0,1,0
+Ongeval exact gekoppeld aan BN,12.00-12.59,05FEB06,12,Letsel,0,0,Vast voorwerp,Kruispunt,28621,386750,1,0,0,0
+Ongeval exact gekoppeld aan BN,15.00-15.59,16FEB06,37,Letsel,0,0,Flank,Kruispunt,160862,373974,1,0,1,0
+Ongeval exact gekoppeld aan BN,14.00-14.59,27FEB06,54,Letsel,0,0,Flank,Kruispunt,77219,426635,1,1,0,0
+Ongeval exact gekoppeld aan BN,18.00-18.59,23FEB06,13,Letsel,0,0,Eenzijdig,Kruispunt,77030,393393,1,0,0,0
+Ongeval gekoppeld op straat niveau,12.00-12.59,28FEB06,53,Letsel,0,0,Vast voorwerp,Wegvak,213942.293,476321,0,0,0,0
+Ongeval exact gekoppeld aan BN,14.00-14.59,17FEB06,5,Letsel,0,0,Flank,Wegvak,181196.5,580584,0,2,0,0
+Ongeval exact gekoppeld aan BN,14.00-14.59,26FEB06,42,Letsel,0,0,Kop/staart,Kruispunt,207705,476114,2,0,0,0
+Ongeval exact gekoppeld aan BN,16.00-16.59,22FEB06,20,Letsel,0,0,Kop/staart,Kruispunt,112180,491134,1,1,0,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,05FEB06,40,Letsel,0,0,Frontaal,Kruispunt,119786.863,479388.724,0,1,1,0
+Ongeval exact gekoppeld aan BN,19.00-19.59,27FEB06,40,Letsel,0,0,Flank,Kruispunt,196045,320319,1,0,0,0
+Ongeval exact gekoppeld aan BN,5.00-05.59,06MAR06,23,Letsel,0,1,Eenzijdig,Wegvak,158467.185,471845.446,1,0,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,01MAR06,45,Letsel,0,0,Eenzijdig,Kruispunt,78493,452158,0,0,1,0
+Ongeval exact gekoppeld aan BN,18.00-18.59,04MAR06,15,Letsel,0,1,Vast voorwerp,Wegvak,183251.017,566710.314,1,0,0,0
+Ongeval exact gekoppeld aan BN,15.00-15.59,15MAR06,0,Letsel,0,0,Kop/staart,Wegvak,209785.372,461971.176,1,0,0,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,25FEB06,49,Letsel,0,0,Geparkeerd,Wegvak,79644,453870,2,0,0,0
+Ongeval exact gekoppeld aan BN,0.00-00.59,27FEB06,5,Letsel,0,0,Eenzijdig,Kruispunt,168144,432923,0,1,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,07MAR06,23,Letsel,0,0,Eenzijdig,Wegvak,62342.548,367595.243,1,0,0,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,07MAR06,16,Letsel,0,0,Kop/staart,Wegvak,116456.583,496505.933,2,0,0,0
+Ongeval exact gekoppeld aan BN,18.00-18.59,10FEB06,43,Letsel,0,0,Flank,Kruispunt,112678,497600,1,1,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,09MAR06,0,Letsel,0,0,Flank,Kruispunt,117996.035,493571.805,1,0,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,02MAR06,39,Letsel,0,0,Vast voorwerp,Wegvak,219557.523,480664.959,1,0,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,07MAR06,12,Letsel,0,0,Flank,Kruispunt,205968,488953,1,0,1,0
+Ongeval exact gekoppeld aan BN,9.00-09.59,06MAR06,12,Letsel,0,0,Vast voorwerp,Kruispunt,180025,390039,1,0,0,0
+Ongeval exact gekoppeld aan BN,20.00-20.59,04MAR06,41,Letsel,0,0,Kop/staart,Kruispunt,182584,386788,2,0,0,0
+Ongeval exact gekoppeld aan BN,15.00-15.59,02MAR06,23,Letsel,0,0,Flank,Kruispunt,93889,464001,0,0,2,0
+Ongeval exact gekoppeld aan BN,10.00-10.59,02MAR06,36,Letsel,0,0,Geparkeerd,Kruispunt,93715,464304,1,1,0,0
+Ongeval exact gekoppeld aan BN,11.00-11.59,17FEB06,6,Letsel,0,0,Flank,Kruispunt,94285,463399,1,0,1,0
+Ongeval exact gekoppeld aan BN,17.00-17.59,27FEB06,7,Letsel,0,0,Voetganger,Kruispunt,93926.411,463346.51,1,0,0,1
+Ongeval exact gekoppeld aan BN,19.00-19.59,01MAR06,8,Letsel,0,0,Voetganger,Wegvak,91628.843,395420.562,1,0,0,1
+Ongeval exact gekoppeld aan BN,7.00-07.59,07MAR06,2,Letsel,0,0,Flank,Wegvak,91262.92,394574.668,1,0,1,0
+Ongeval exact gekoppeld aan BN,7.00-07.59,07MAR06,45,Letsel,0,0,Flank,Kruispunt,116522,538016,1,0,3,0
+Ongeval exact gekoppeld aan BN,14.00-14.59,01FEB06,33,Letsel,0,0,Flank,Kruispunt,170978,383535,2,0,0,0
+Ongeval gekoppeld op straat niveau,15.00-15.59,03MAR06,40,Letsel,0,0,Vast voorwerp,Wegvak,215326.599,547950.006,1,0,0,0
+Ongeval exact gekoppeld aan BN,18.00-18.59,15MAR06,10,Letsel,0,0,Flank,Kruispunt,116885.74,494933.882,1,1,0,0
+Ongeval exact gekoppeld aan BN,17.00-17.59,10MAR06,36,Letsel,0,1,Flank,Kruispunt,90869,391919,2,0,0,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,09MAR06,15,Letsel,0,0,Geparkeerd,Wegvak,70952,446767,1,0,1,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,23FEB06,30,Letsel,0,0,Flank,Kruispunt,81346,453330,0,0,1,0
+Ongeval exact gekoppeld aan BN,19.00-19.59,07JAN06,25,Letsel,0,0,Flank,Kruispunt,115864,487783,2,0,0,0
+Ongeval exact gekoppeld aan BN,1.00-01.59,12MAR06,40,Letsel,0,0,Flank,Kruispunt,78402,452282,2,0,0,0
+Ongeval gekoppeld op straat niveau,10.00-10.59,26FEB06,48,Letsel,0,0,Vast voorwerp,Wegvak,113055.604,483560.104,1,0,0,0
+Ongeval exact gekoppeld aan BN,0.00-00.59,22MAR06,48,Letsel,0,0,Eenzijdig,Wegvak,168301.814,363983.907,1,0,0,0
+Ongeval exact gekoppeld aan BN,18.00-18.59,27MAR06,35,Letsel,0,0,Frontaal,Kruispunt,31960,392370,1,0,1,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,18MAR06,50,Letsel,0,0,Flank,Kruispunt,167777,438305,0,1,1,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,25FEB06,55,Letsel,0,1,Frontaal,Kruispunt,206267,374088,2,0,0,0
+Ongeval exact gekoppeld aan BN,9.00-09.59,11JAN06,29,Letsel,0,0,Frontaal,Kruispunt,78200,452566,2,0,0,0
+Ongeval exact gekoppeld aan BN,14.00-14.59,12MAR06,35,Letsel,0,0,Flank,Kruispunt,152205,373117,2,0,0,0
+Ongeval exact gekoppeld aan BN,19.00-19.59,25FEB06,45,Letsel,0,0,Frontaal,Wegvak,182264,553614,1,0,2,0
+Ongeval exact gekoppeld aan BN,20.00-20.59,15MAR06,50,Letsel,0,0,Kop/staart,Kruispunt,96269,437783,2,0,0,0
+Ongeval exact gekoppeld aan BN,16.00-16.59,08MAR06,18,Letsel,0,0,Frontaal,Kruispunt,132221,399595,0,0,1,0
+Ongeval exact gekoppeld aan BN,13.00-13.59,20MAR06,47,Letsel,0,0,Kop/staart,Wegvak,104154.971,421959.319,0,0,0,0
+Ongeval exact gekoppeld aan BN,8.00-08.59,14MAR06,55,Letsel,0,0,Flank,Kruispunt,175559,497235,1,1,0,0
+Ongeval exact gekoppeld aan BN,22.00-22.59,03MAR06,44,Letsel,0,0,Vast voorwerp,Wegvak,179980.482,533496.705,1,0,0,0
+Ongeval exact gekoppeld aan BN,23.00-23.59,13FEB06,15,Letsel,0,0,Kop/staart,Wegvak,165367.07,509743.468,2,0,0,0
+Ongeval exact gekoppeld aan BN,19.00-19.59,15FEB06,35,Letsel,0,0,Vast voorwerp,Wegvak,177819.403,537204.657,1,0,0,0
+Ongeval exact gekoppeld aan BN,21.00-21.59,06MAR06,17,Letsel,0,0,Vast voorwerp,Wegvak,254950.808,565978.675,0,0,0,0
+Ongeval exact gekoppeld aan BN,14.00-14.59,28MAR06,5,Letsel,0,0,Vast voorwerp,Wegvak,128852.345,461401.045,1,0,0,0

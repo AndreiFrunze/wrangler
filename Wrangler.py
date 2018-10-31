@@ -6,6 +6,7 @@ import numpy as np
 import pytz
 import pyproj
 import os
+import benchmark
 
 from datetime import datetime, timedelta
 
@@ -41,8 +42,7 @@ class ReadCSV(GenericPE):
         columnsList.append(self.metaCSVdict['columnMinute'])
         columnsList.append(self.metaCSVdict['columnX'])
         columnsList.append(self.metaCSVdict['columnY'])        
-        
-        
+
         self.dataUnsortedStr = np.recfromtxt(csvFile, skip_header=self.numHeaderLines, comments="#", dtype="|S300", delimiter=delimiter)
         self.dataColumns = self.dataUnsortedStr[:, columnsList ]
         
@@ -104,8 +104,7 @@ class ReadCSV(GenericPE):
 
         self.write('csv_file', csvFile)
         self.write('csv_output', self.queryDataNPAdtsLL)
-        
-    
+
     def readHeaderLines(self, fileName):
         self.numHeaderLines = 1
         headerText = ""
@@ -193,7 +192,6 @@ class ReadCSV(GenericPE):
         longitudes = LL[0]
         latitudes = LL[1]
         return (longitudes, latitudes)  # tuple, vector
-        
 
 
 class ReadNETCDF(GenericPE):
@@ -255,14 +253,11 @@ class ReadNETCDF(GenericPE):
 
         self.write('netcdf_out', ds)
         
-
-        
     def unproject2LongitudeLatitudes(self, xcoords, ycoords):
         LL = self.projectionFunction(xcoords, ycoords, inverse=True)
         longitudes = LL[0]
         latitudes = LL[1]
-        return (longitudes, latitudes) # tuple, vector
-
+        return longitudes, latitudes  # tuple, vector
 
 
 class ProcessData(GenericPE):
@@ -274,12 +269,11 @@ class ProcessData(GenericPE):
         self._add_output('output')
         self.csv=[]
         self.netcdf=[]
- 
-    
+
     def _process(self,inputs):
         self.log('Processing Data')
         
-        #function used for getting the distance between 2 points
+        # function used for getting the distance between 2 points
         geoTransfWGS84 = pyproj.Geod(ellps='WGS84')
         self.geoTransf = geoTransfWGS84
         
@@ -313,18 +307,13 @@ class ProcessData(GenericPE):
             processedData = np.hstack((self.csvData, valueArray.reshape(valueArray.shape[0], 1)))
 
             self.write('output', processedData)
-        
 
-        
     def GetValue_time_lon_lat(self, variableName, utcTime, lon, lat):
-        
         closestDateTimeIndex = self.FindClosestDateTimeIndex(utcTime)
         minDistanceDataIndex = self.FindClosestLonLatPointIndex(lon, lat)
         dataValue = self.GetDataAtIndex(closestDateTimeIndex, minDistanceDataIndex, variableName=variableName)
-
         return dataValue
-    
-    
+
     def FindClosestDateTimeIndex(self, time):
         closestTime = self.FindClosestDateTime(time, self.dateTimeArray)
         closestTimeIndex = np.where(self.dateTimeArray == closestTime)[0][0]
@@ -371,8 +360,7 @@ class ProcessData(GenericPE):
         valueDataArray = self.netcdfData['image1_image_data'][timeIndex][idY][idX]
         dataValue = valueDataArray.values.item(0)
         return dataValue
-    
-    
+
     #needs to be adapted to xarray
     def GetVariable(self, variableName):
         keylist = self.metaData.variables.keys()
@@ -387,7 +375,6 @@ class ProcessData(GenericPE):
         return variableFound
 
 
-
 class StoreData(GenericPE):
     
     def __init__(self):
@@ -396,7 +383,6 @@ class StoreData(GenericPE):
         self._add_input('csv_file')
         self.csv = False
         self.wrangler = False
-         
         
     def _process(self,inputs):
         self.log('Storing Data')
@@ -422,7 +408,6 @@ class StoreData(GenericPE):
 
             np.savetxt(outputLocation, finalStack, fmt='%s', delimiter=',', header=self.csvHeader)
 
-
     def readHeaderLines(self, fileName):
         self.numHeaderLines = 1
         headerText = ""
@@ -436,7 +421,6 @@ class StoreData(GenericPE):
             n -= 1
         ftxt.close()
         return headerText
-
 
 
 def createWorkflow():
@@ -464,20 +448,24 @@ workflow_graph = createWorkflow()
 
 
 
-
-input_data = {'CSV': [{'input': ['data/accident_data.csv'], 'csv_desc': ['data/metaDataCsv.json']}],
+# csv with 10 lines: 'data/accident_data_10.csv'
+# csv with 100 lines: 'data/accident_data_100.csv'
+input_data = {'CSV': [{'input': ['data/accident_data_100.csv'], 'csv_desc': ['data/metaDataCsv.json']}],
               'NETCDF': [{'input': ['http://opendap.knmi.nl/knmi/thredds/dodsC/DATALAB/hackathon/radarFull2006.nc']}]}
 
 
-
 def runWorkflow():
-                                                     
-    print input_data                   
-
+    print input_data
     # Launch in simple process
     result = simple_process.process_and_return(workflow_graph, input_data)
     print "\n RESULT: "+str(result)
 
 
+class BenchmarkWrangler(benchmark.Benchmark):
+    each = 50  # allows for differing number of runs
 
-runWorkflow()
+    def test_dispel4py_wrangler(self):
+        runWorkflow()
+
+
+benchmark.main(format="markdown", numberFormat="%.4g")
